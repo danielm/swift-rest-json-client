@@ -11,7 +11,7 @@ import TRON
 import SwiftyJSON
 
 struct MyServices {
-    let tron = TRON(baseURL: "https://api.daniel.uy/api")
+    let tron = TRON(baseURL: "https://api.danielmg.org/api")
 
     static let singleton = MyServices()
     
